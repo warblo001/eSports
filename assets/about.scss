@@ -168,15 +168,30 @@ main {
   width: 400px;
   height: 250px;
   margin: 10px;
-
 }
 
 .foot-about {
   width: 100%;
-  height: 200px;
   background: $dark;
   padding: 20px 0;
   color: $gray;
+}
+
+.partner-container {
+  display: none;
+}
+
+.footer-text {
+  justify-content: center;
+  align-items: center;
+  }
+
+footer {
+  height: 200px;
+  background: $dark;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width:768px) {
@@ -195,5 +210,9 @@ main {
       background: #d3d3d385;
       color: $dark;
     }
+  }
+
+  .partner-container {
+    display:flex;
   }
 }

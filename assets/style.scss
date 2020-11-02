@@ -323,8 +323,18 @@ footer,
   }
 }
 
-.foot-cont {
+footer {
+  height:200px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot-cont {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-logo {
@@ -477,9 +487,5 @@ footer,
   a:hover {
     color: $orange;
   }
-}
-
-.foot-cont {
-  margin: 50px 0;
 }
 }
