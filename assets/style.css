@@ -201,6 +201,7 @@ footer,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: -10px;
 }
 
 .speak-img {
@@ -253,7 +254,9 @@ footer,
 .speak-text {
   width: 70%;
   background: #D3D3D3;
-  padding: 10px;
+  padding: 5px;
+  height: 90%;
+  margin-top: 30px;
 }
 
 .speak-text h2, .speak-text h3, .speak-text p {
@@ -272,6 +275,7 @@ footer,
 
 .speak-text p {
   font-size: 16px;
+  margin: 0;
 }
 
 .speak-btn {

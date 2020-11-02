@@ -182,6 +182,7 @@ footer,
 
 .speaker {
   display: flex;
+  margin-left: -10px;
 }
 
 .speak-img {
@@ -229,7 +230,9 @@ footer,
 .speak-text {
   width: 70%;
   background: $gray;
-  padding: 10px;
+  padding: 5px;
+  height: 90%;
+  margin-top: 30px;
 
   h2, h3, p {
     width: 100%;
@@ -247,6 +250,7 @@ footer,
 
   p {
     font-size: 16px;
+    margin: 0;
   }
 }
 
