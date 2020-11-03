@@ -1,12 +1,10 @@
-$dark: #272A31;
-$orange: #EC5242;
-$gray: #D3D3D3;
+$dark: #272a31;
+$orange: #ec5242;
+$gray: #d3d3d3;
 
 .dropdownmenu-btns {
-  button {
-    a {
+  a {
     color: $dark;
-  }
   }
 }
 
@@ -14,13 +12,14 @@ main {
   font-family: 'Lato', sans-serif;
 }
 
-.step1, .step2 {
+.step1,
+.step2 {
   width: 100%;
 }
 
 .step1 {
   position: relative;
-  background: #F7F7F7;
+  background: #f7f7f7;
   padding-bottom: 100px;
 
   h1 {
@@ -36,7 +35,8 @@ main {
   }
 }
 
-.step-circle, .step-circle2 {
+.step-circle,
+.step-circle2 {
   width: 50%;
   margin: 0 auto;
   justify-content: center;
@@ -49,7 +49,8 @@ main {
   margin-top: 40px;
   margin-bottom: 40px;
 
-  h5, p {
+  h5,
+  p {
     font-size: 16px;
     margin: 0;
   }
@@ -92,14 +93,19 @@ main {
   border: 10px solid;
   border-image-slice: 1;
   border-width: 5px;
-  border-image-source: repeating-linear-gradient(-30deg, 
-      $orange 0 5px, 
+  border-image-source:
+    repeating-linear-gradient(
+      -30deg,
+      $orange 0 5px,
       #afb1af 5px 10px,
-      #142E5F 10px 15px,
-      );
+      #142e5f 10px 15px,
+    );
 }
 
-.first-col, .second-col, .third-col, .fourth-col {
+.first-col,
+.second-col,
+.third-col,
+.fourth-col {
   border-right: 1px solid  #b9b8b8;
   border-bottom: 1px solid  #b9b8b8;
   height: 40px;
@@ -110,18 +116,20 @@ main {
   font-size: 14px;
 }
 
-.third-col, .fourth-col {
+.third-col,
+.fourth-col {
   height: 60px;
   flex-direction: column;
   line-height: 30px;
 }
 
 .first-row {
-  background: #F7F7F7;
+  background: #f7f7f7;
 }
 
-
-.second-col, .third-col, .fourth-col {
+.second-col,
+.third-col,
+.fourth-col {
   background: white;
 }
 
@@ -152,6 +160,7 @@ main {
 
 .step2 {
   margin-bottom: 100px;
+
   h1 {
     text-align: center;
     font-size: 30px;
@@ -167,22 +176,22 @@ main {
 
 .menu-btn {
   width: 30%;
-    margin-left: 35%;
-    background: $orange;
-    border: none;
-    color: $gray;
-    font-size: 20px;
-    padding: 20px;
+  margin-left: 35%;
+  background: $orange;
+  border: none;
+  color: $gray;
+  font-size: 20px;
+  padding: 20px;
 }
 
-.menu1{
+.menu1 {
   width: 85%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 1px solid rgb(185, 185, 185);
-  background: #F7F7F7;
+  background: #f7f7f7;
   margin: 0 auto;
   margin-bottom: 50px;
 
@@ -205,6 +214,7 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-around;
+
     label {
       margin-right: 10px;
     }
@@ -225,7 +235,7 @@ main {
 .footer-text {
   justify-content: center;
   align-items: center;
-  }
+}
 
 footer {
   height: 200px;

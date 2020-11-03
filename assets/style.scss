@@ -1,9 +1,9 @@
-$dark: #272A31;
-$orange: #EC5242;
-$gray: #D3D3D3;
+$dark: #272a31;
+$orange: #ec5242;
+$gray: #d3d3d3;
 
-main{
-  font-family: 'Lato', sans-serif;
+main {
+  font-family: "Lato", sans-serif;
 }
 
 .header {
@@ -27,10 +27,30 @@ footer,
 }
 
 .dropdownmenu-btns {
-  button {
-    a {
+  a {
     color: $dark;
+    padding-left: 20px;
   }
+}
+
+.main-btn a {
+  color: $gray;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: $dark;
+}
+
+.main-btn a:hover {
+  color: $dark;
+  text-decoration: none;
+}
+
+.main-nav li {
+  a:hover {
+    color: $orange;
+    font-weight: bold;
   }
 }
 
@@ -39,10 +59,9 @@ footer,
 }
 
 .eSports-btn {
-  border-radius: 0px;
   background: white;
   border: 3px solid $orange;
-  color: $orange ;
+  color: $orange;
   padding: 10px;
   margin-top: 10px;
 }
@@ -51,7 +70,7 @@ footer,
   background: $dark;
   border: $orange 3px solid;
   color: $orange;
-  }
+}
 
 .head-banner {
   position: relative;
@@ -61,7 +80,7 @@ footer,
   img {
     position: absolute;
     z-index: -1;
-    opacity: .55;
+    opacity: 0.55;
     width: 100%;
     height: 100%;
   }
@@ -93,12 +112,12 @@ footer,
 
 .main-program {
   background-image: url(img/x-background.jpg);
-  color: #D3D3D3;
+  color: #d3d3d3;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
   h1 {
     margin-top: 20px;
   }
@@ -125,7 +144,7 @@ footer,
   width: 90%;
 }
 
-.main-btn{
+.main-btn {
   width: 80%;
   background: $orange;
   height: 100px;
@@ -137,15 +156,6 @@ footer,
   font-size: 30px;
   border-radius: 1px;
   cursor: pointer;
-
-  a {
-    color: $gray
-  }
-
-  a:hover {
-    color: $dark;
-    text-decoration: none;
-  }
 }
 
 .mp-art {
@@ -206,7 +216,7 @@ footer,
     height: 150px;
     margin-left: 33px;
     margin-top: 55px;
-    opacity: .5;
+    opacity: 0.5;
     transition-duration: 700ms;
     z-index: 2;
     position: absolute;
@@ -224,7 +234,7 @@ footer,
     left: 0;
     z-index: 1;
   }
-  
+
   .avatar:hover {
     opacity: 1;
   }
@@ -242,7 +252,9 @@ footer,
   height: 90%;
   margin-top: 30px;
 
-  h2, h3, p {
+  h2,
+  h3,
+  p {
     width: 100%;
   }
 
@@ -292,7 +304,8 @@ footer,
   background: #424146;
   color: $gray;
 
-  h1, h2 {
+  h1,
+  h2 {
     text-align: center;
   }
 
@@ -304,6 +317,10 @@ footer,
   img {
     width: 200px;
   }
+}
+
+.footer-logo img {
+  width: 150px;
 }
 
 .partner-img-cont {
@@ -351,10 +368,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  img {
-    width: 150px;
-  }
 }
 
 .footer-text {
@@ -377,126 +390,115 @@ footer {
 }
 
 @media (min-width: 768px) {
-
-  .black-nav {
-  height: 35px;
-  display: flex;
-  justify-content: flex-end;
-  background: $dark;
-  padding-right: 20px;
-  color: #D3D3D3;
-  align-items: center;
-  padding-right: 9%;
-
-  .iconify {
-    margin-right: 10px;
-  }
-
-  a {
-    padding-left: 10px;
-    color: $gray;
-  }
-
-  a:hover, .iconify:hover {
-    text-decoration: none;
-    color: $orange;
-  }
-}
-
-.main-nav {
-  height: 70px;
-  min-width: 770px;
-  top: 35;
-
-  li{
-    
-    a {
-      text-decoration: none;
-      color: $dark;
-    }
-
-    a:hover {
-      color: $orange;
-      font-weight: bold;
-    }
-  }
-
-  img {
-    width: 150px;
-    margin-top: -5px;
-  }
-
-  button {
-    border-radius: 0px;
-    background: white;
-    border: 3px solid $orange;
-    color: $orange ;
-    margin-top: -5px;
-  }
-
-  button:hover {
-    background: $dark;
-    border: $orange 3px solid;
-    color: $orange;
-  }
-}
-
-.head-banner {
-  h2 {
-    padding-top: 150px;
-  }
-
-  p {
-    width: 70%;
-  }
-
-  h1, h2 {
-    padding-left: 150px;
-  }
-
-  .banner-t, .banner-date {
-    margin-left: 150px;
-    margin-top: 30px;
-  }
-
-  .banner-date {
-    margin-bottom: 100px;
-  }
-}
-
-.mp-cont {
-  display: flex;
-  margin: 0 auto;
-}
-
-.mp-art {
-  width: 20%;
-  flex-direction: column;
-  margin-right: 5px;
-  display: flex;
-  text-align: center;
-
-  .iconify {
+  .mp-art .iconify {
     font-size: 60px;
-  }
-
-  .iconify, h5, p {
     margin: 0 auto;
     width: 95%;
   }
 
-  h5 {
-    justify-content: center;
-    margin: 5px 0;
-  }
-}
+  .black-nav {
+    height: 35px;
+    display: flex;
+    justify-content: flex-end;
+    background: $dark;
+    color: #d3d3d3;
+    align-items: center;
+    padding-right: 9%;
 
-.main-btn {
-  background: none;
-  text-decoration: underline;
+    .iconify {
+      margin-right: 10px;
+    }
 
-  a:hover {
-    color: $orange;
+    a {
+      padding-left: 10px;
+      color: $gray;
+    }
+
+    a:hover,
+    .iconify:hover {
+      text-decoration: none;
+      color: $orange;
+    }
   }
-}
+
+  .main-nav {
+    height: 70px;
+    min-width: 770px;
+
+    img {
+      width: 150px;
+      margin-top: -5px;
+    }
+
+    button {
+      background: white;
+      border: 3px solid $orange;
+      color: $orange;
+      margin-top: -5px;
+    }
+
+    button:hover {
+      background: $dark;
+      border: $orange 3px solid;
+      color: $orange;
+    }
+  }
+
+  .head-banner {
+    h2 {
+      padding-top: 150px;
+    }
+
+    p {
+      width: 70%;
+    }
+
+    h1,
+    h2 {
+      padding-left: 150px;
+    }
+
+    .banner-t,
+    .banner-date {
+      margin-left: 150px;
+      margin-top: 30px;
+    }
+
+    .banner-date {
+      margin-bottom: 100px;
+    }
+  }
+
+  .mp-cont {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .mp-art {
+    width: 20%;
+    flex-direction: column;
+    margin-right: 5px;
+    display: flex;
+    text-align: center;
+
+    h5,
+    p {
+      margin: 0 auto;
+      width: 95%;
+    }
+
+    h5 {
+      justify-content: center;
+      margin: 5px 0;
+    }
+  }
+
+  .main-btn {
+    background: none;
+    text-decoration: underline;
+
+    a:hover {
+      color: $orange;
+    }
+  }
 }

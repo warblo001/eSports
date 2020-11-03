@@ -8,9 +8,9 @@ This is a site for an incoming conference about videogames, it provides the info
 
 This is a project for Microverse program HTML/CSS course which consist on creating a site for a conference using frontend techniques.
 
-![screenshot](/assets/img/screenshot.jpg)
+![screenshot](/assets/img/screenshot.png)
 
-## Newsweek Clone with the following features:
+## eSports Conference site with the following features:
 
 - Responsiveness : This site is complete responsive to mobile and screen sizes above 768px.
 
@@ -34,7 +34,7 @@ This is a project for Microverse program HTML/CSS course which consist on creati
 
 ## Live Demo
 
-[Live Demo Link](https://adoring-benz-430942.netlify.app)
+[Live Demo Link](https://relaxed-gates-ad7de1.netlify.app/)
 
 **See the page via the link above**
 

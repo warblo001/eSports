@@ -1,5 +1,5 @@
 main {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .header {
@@ -22,8 +22,28 @@ footer,
   display: none;
 }
 
-.dropdownmenu-btns button a {
-  color: #272A31;
+.dropdownmenu-btns a {
+  color: #272a31;
+  padding-left: 20px;
+}
+
+.main-btn a {
+  color: #d3d3d3;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.main-btn a:hover {
+  color: #272a31;
+  text-decoration: none;
+}
+
+.main-nav li a:hover {
+  color: #ec5242;
+  font-weight: bold;
 }
 
 .dropdown button::after {
@@ -31,18 +51,17 @@ footer,
 }
 
 .eSports-btn {
-  border-radius: 0px;
   background: white;
-  border: 3px solid #EC5242;
-  color: #EC5242;
+  border: 3px solid #ec5242;
+  color: #ec5242;
   padding: 10px;
   margin-top: 10px;
 }
 
 .eSports-btn:hover {
-  background: #272A31;
-  border: #EC5242 3px solid;
-  color: #EC5242;
+  background: #272a31;
+  border: #ec5242 3px solid;
+  color: #ec5242;
 }
 
 .head-banner {
@@ -54,14 +73,14 @@ footer,
 .head-banner img {
   position: absolute;
   z-index: -1;
-  opacity: .55;
+  opacity: 0.55;
   width: 100%;
   height: 100%;
 }
 
 .head-banner h2 {
   padding: 100px 20px 10px 20px;
-  color: #272A31;
+  color: #272a31;
   font-size: 30px;
   font-weight: 900;
 }
@@ -74,19 +93,19 @@ footer,
 .banner-t,
 .banner-date {
   margin: 0 20px;
-  color: #EC5242;
+  color: #ec5242;
   font-size: 20px;
   font-weight: bold;
 }
 
 .banner-t h3,
 .banner-date h3 {
-  color: #272A31;
+  color: #272a31;
 }
 
 .main-program {
   background-image: url(img/x-background.jpg);
-  color: #D3D3D3;
+  color: #d3d3d3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,7 +126,7 @@ footer,
 }
 
 .main-program h2 {
-  color: #EC5242;
+  color: #ec5242;
   margin-top: -30px;
   margin-bottom: 40px;
 }
@@ -127,7 +146,7 @@ footer,
 
 .main-btn {
   width: 80%;
-  background: #EC5242;
+  background: #ec5242;
   height: 100px;
   margin-top: 20px;
   margin-bottom: 40px;
@@ -143,15 +162,6 @@ footer,
   font-size: 30px;
   border-radius: 1px;
   cursor: pointer;
-}
-
-.main-btn a {
-  color: #D3D3D3;
-}
-
-.main-btn a:hover {
-  color: #272A31;
-  text-decoration: none;
 }
 
 .mp-art {
@@ -174,7 +184,7 @@ footer,
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   font-size: 20px;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .mp-art .iconify {
@@ -197,7 +207,7 @@ footer,
 
 .main-speakers h1 {
   text-align: center;
-  color: #D3D3D3;
+  color: #d3d3d3;
   padding-top: 20px;
 }
 
@@ -225,7 +235,7 @@ footer,
   height: 150px;
   margin-left: 33px;
   margin-top: 55px;
-  opacity: .5;
+  opacity: 0.5;
   -webkit-transition-duration: 700ms;
           transition-duration: 700ms;
   z-index: 2;
@@ -257,13 +267,15 @@ footer,
 
 .speak-text {
   width: 70%;
-  background: #D3D3D3;
+  background: #d3d3d3;
   padding: 5px;
   height: 90%;
   margin-top: 30px;
 }
 
-.speak-text h2, .speak-text h3, .speak-text p {
+.speak-text h2,
+.speak-text h3,
+.speak-text p {
   width: 100%;
 }
 
@@ -273,7 +285,7 @@ footer,
 
 .speak-text h3 {
   font-size: 20px;
-  color: #EC5242;
+  color: #ec5242;
   font-style: italic;
 }
 
@@ -284,7 +296,7 @@ footer,
 
 .speak-btn {
   width: 90%;
-  background: #D3D3D3;
+  background: #d3d3d3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -297,15 +309,15 @@ footer,
   margin: 0 auto;
   margin-top: 30px;
   height: 70px;
-  color: #272A31;
+  color: #272a31;
   font-weight: bold;
-  border: #EC5242 1px solid;
+  border: #ec5242 1px solid;
   border-radius: 10px;
   cursor: pointer;
 }
 
 .speak-btn .speak-span {
-  color: #EC5242;
+  color: #ec5242;
   padding-left: 10px;
 }
 
@@ -316,20 +328,25 @@ footer,
 .partner-container {
   padding-top: 30px;
   background: #424146;
-  color: #D3D3D3;
+  color: #d3d3d3;
 }
 
-.partner-container h1, .partner-container h2 {
+.partner-container h1,
+.partner-container h2 {
   text-align: center;
 }
 
 .partner-container h2 {
-  color: #EC5242;
+  color: #ec5242;
   margin-top: -30px;
 }
 
 .partner-container img {
   width: 200px;
+}
+
+.footer-logo img {
+  width: 150px;
 }
 
 .partner-img-cont {
@@ -407,10 +424,6 @@ footer {
           align-items: center;
 }
 
-.footer-logo img {
-  width: 150px;
-}
-
 .footer-text {
   width: 65%;
   display: -webkit-box;
@@ -440,6 +453,11 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .mp-art .iconify {
+    font-size: 60px;
+    margin: 0 auto;
+    width: 95%;
+  }
   .black-nav {
     height: 35px;
     display: -webkit-box;
@@ -448,9 +466,8 @@ footer {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    background: #272A31;
-    padding-right: 20px;
-    color: #D3D3D3;
+    background: #272a31;
+    color: #d3d3d3;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -461,40 +478,31 @@ footer {
   }
   .black-nav a {
     padding-left: 10px;
-    color: #D3D3D3;
+    color: #d3d3d3;
   }
-  .black-nav a:hover, .black-nav .iconify:hover {
+  .black-nav a:hover,
+  .black-nav .iconify:hover {
     text-decoration: none;
-    color: #EC5242;
+    color: #ec5242;
   }
   .main-nav {
     height: 70px;
     min-width: 770px;
-    top: 35;
-  }
-  .main-nav li a {
-    text-decoration: none;
-    color: #272A31;
-  }
-  .main-nav li a:hover {
-    color: #EC5242;
-    font-weight: bold;
   }
   .main-nav img {
     width: 150px;
     margin-top: -5px;
   }
   .main-nav button {
-    border-radius: 0px;
     background: white;
-    border: 3px solid #EC5242;
-    color: #EC5242;
+    border: 3px solid #ec5242;
+    color: #ec5242;
     margin-top: -5px;
   }
   .main-nav button:hover {
-    background: #272A31;
-    border: #EC5242 3px solid;
-    color: #EC5242;
+    background: #272a31;
+    border: #ec5242 3px solid;
+    color: #ec5242;
   }
   .head-banner h2 {
     padding-top: 150px;
@@ -502,10 +510,12 @@ footer {
   .head-banner p {
     width: 70%;
   }
-  .head-banner h1, .head-banner h2 {
+  .head-banner h1,
+  .head-banner h2 {
     padding-left: 150px;
   }
-  .head-banner .banner-t, .head-banner .banner-date {
+  .head-banner .banner-t,
+  .head-banner .banner-date {
     margin-left: 150px;
     margin-top: 30px;
   }
@@ -530,10 +540,8 @@ footer {
     display: flex;
     text-align: center;
   }
-  .mp-art .iconify {
-    font-size: 60px;
-  }
-  .mp-art .iconify, .mp-art h5, .mp-art p {
+  .mp-art h5,
+  .mp-art p {
     margin: 0 auto;
     width: 95%;
   }
@@ -548,7 +556,7 @@ footer {
     text-decoration: underline;
   }
   .main-btn a:hover {
-    color: #EC5242;
+    color: #ec5242;
   }
 }
 /*# sourceMappingURL=style.css.map */
