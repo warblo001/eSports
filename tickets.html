@@ -69,44 +69,60 @@
   <main>
     <section>
       <div class="step1">
+        <div class="house-map">
+          <ul>
+            <li><a href="index.html"><span class="iconify" data-icon="clarity:house-solid" data-inline="false"></a></span></li>
+            <li>></li>
+            <li><a href="#">eSports</a></li>
+            <li>></li>
+            <li><a href="tickets.html"> Tickets</a></li>
+          </ul>
+        </div>
+        
         <h1>Select Tickets</h1>
         <h3>___</h3>
-        <article>
-          <h5>STEP 1</h5>
+        
+
+        <article class="step-circle">
+          <h5> STEP 1</h5>
           <p>Please select the day you want to assist to eSports Conference 2020.</p>
         </article>
 
         <div class="container tickets-cont">
-          <div class="row">
-            <div class="col">Ticket</div>
-            <div class="col">1-Day-Ticket</div>
-            <div class="col">2-Day-Ticket</div>
-            <div class="col">eSports Affiliate</div>
+          <div class="row first-row">
+            <div class="col-1 first-col">Ticket</div>
+            <div class="col-2 first-col">1-Day-Ticket</div>
+            <div class="col first-col">2-Day-Ticket</div>
+            <div class="col-3 first-col">eSports Affiliate</div>
           </div>
 
           <div class="row">
-            <div class="col">Date</div>
-            <div class="col">6 Nov(Fri)</div>
-            <div class="col">7 Nov(Sat)</div>
-            <div class="col">6-7 Nov(Fri-Sat)</div>
-            <div class="col">6-7 Nov(Fri-Sat)</div>
+            <div class="col-1 second-col">Date</div>
+            <div class="col-2 second-col">6 Nov(Fri)</div>
+            <div class="col second-col">7 Nov(Sat)</div>
+            <div class="col second-col">6-7 Nov(Fri-Sat)</div>
+            <div class="col-3 second-col">6-7 Nov(Fri-Sat)</div>
           </div>
           <div class="row">
-            <div class="col">Normal</div>
-            <div class="col orange-col">$60</div>
-            <div class="col orange-col">$60</div>
-            <div class="col orange-col">$110</div>
-            <div class="col orange-col">$0</div>
+            <div class="col-1 third-col">Normal</div>
+            <div class="col-2 orange-col third-col">$60 <input type="radio"></div>
+            <div class="col orange-col third-col">$60 <input type="radio"></div>
+            <div class="col orange-col third-col">$110 <input type="radio"></div>
+            <div class="col-3 orange-col third-col">$0 <input type="radio"></div>
           </div>
           <div class="row">
-            <div class="col">Students</div>
-            <div class="col orange-col">$30</div>
-            <div class="col orange-col">$30</div>
-            <div class="col orange-col">$50</div>
-            <div class="col orange-col">$0</div>
+            <div class="col-1 fourth-col">Students</div>
+            <div class="col-2 orange-col fourth-col">$30 <input type="radio"></div>
+            <div class="col orange-col fourth-col">$30 <input type="radio"></div>
+            <div class="col orange-col fourth-col">$50 <input type="radio"></div>
+            <div class="col-3 orange-col fourth-col">$0 <input type="radio"></div>
           </div>
         </div>
       </div>
+      <div class="little-square">
+        <p>v</p>
+      </div>
+      
     </section>
 
     <section>
@@ -114,15 +130,34 @@
         <h1>Select Your Lunch</h1>
         <h3>___</h3>
 
-        <article>
+        <article class="step-circle2">
           <h5>STEP 2</h5>
-          <p>Please select your lunch for registered da. There will be no further costs for the lunch.</p>
+          <p>Please select your lunch for registered day.</p> <p> There will be no further costs for the lunch.</p>
         </article>
 
         <div class="menu1">
-          <p>Day 1</p>
-          <input type="checkbox">
+          <h4>Day 1</h4>
+          <div class="menu-cont">
+          <p>menu 1<input type="radio"></p>
+          <p>menu 2<input type="radio"></p>
+          <p>menu 3<input type="radio"></p>
+          <p>menu 4<input type="radio"></p>
+          <p>menu 5<input type="radio"></p>
+          </div>
         </div>
+
+        <div class="menu1">
+          <h4>Day 2</h4>
+          <div class="menu-cont">
+          <p>menu 1<input type="radio"></p>
+          <p>menu 2<input type="radio"></p>
+          <p>menu 3<input type="radio"></p>
+          <p>menu 4<input type="radio"></p>
+          <p>menu 5<input type="radio"></p>
+          </div>
+        </div>
+
+        <button class="menu-btn">Select</button>
       </div>
     </section>
   </main>
