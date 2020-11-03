@@ -12,9 +12,9 @@ This is a project for Microverse program HTML/CSS course which consist on creati
 
 ## eSports Conference site with the following features:
 
-- Responsiveness : This site is complete responsive to mobile and screen sizes above 768px.
+- Responsiveness: This site is completely responsive to mobile and screen sizes above 768px.
 
-- Main Page: Contains the full information for the conference, have a navigation feature to see the about page and the ticket page.
+- Main Page: Contains the full information for the conference, has a navigation feature to see the about page and the ticket page.
 
 - About Page: Contains the information about the conference for this year, and have information about previous conferences.
 

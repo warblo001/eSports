@@ -3,7 +3,7 @@ $orange: #ec5242;
 $gray: #d3d3d3;
 
 main {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .about-banner,
@@ -172,15 +172,15 @@ main {
   margin: 10px;
 }
 
+.partner-container {
+  display: none;
+}
+
 .foot-about {
   width: 100%;
   background: $dark;
   padding: 20px 0;
   color: $gray;
-}
-
-.partner-container {
-  display: none;
 }
 
 .footer-text {
