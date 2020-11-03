@@ -93,13 +93,13 @@ main {
   border: 10px solid;
   border-image-slice: 1;
   border-width: 5px;
-  border-image-source: 
+  border-image-source:
     repeating-linear-gradient(
-    -30deg,
-    $orange 0 5px,
-    #afb1af 5px 10px,
-    #142e5f 10px 15px
-  );
+      -30deg,
+      $orange 0 5px,
+      #afb1af 5px 10px,
+      #142e5f 10px 15px
+    );
 }
 
 .first-col,
