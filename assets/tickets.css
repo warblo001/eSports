@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.dropdownmenu-btns button a {
+  color: #272A31;
+}
+
 main {
   font-family: 'Lato', sans-serif;
 }
@@ -225,6 +229,19 @@ main {
           align-items: center;
   background: white;
   font-weight: bold;
+}
+
+.menu-cont form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.menu-cont form label {
+  margin-right: 10px;
 }
 
 .menu-cont input {

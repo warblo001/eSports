@@ -22,6 +22,10 @@ footer,
   display: none;
 }
 
+.dropdownmenu-btns button a {
+  color: #272A31;
+}
+
 .dropdown button::after {
   content: none;
 }
@@ -365,15 +369,16 @@ footer,
 
 footer {
   height: 200px;
+  background: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .foot-cont {
@@ -416,6 +421,12 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-left: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer-text h6 {

@@ -26,6 +26,14 @@ footer,
   display: none;
 }
 
+.dropdownmenu-btns {
+  button {
+    a {
+    color: $dark;
+  }
+  }
+}
+
 .dropdown button::after {
   content: none;
 }
@@ -324,10 +332,11 @@ footer,
 }
 
 footer {
-  height:200px;
+  height: 200px;
+  background: white;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .foot-cont {
@@ -353,6 +362,8 @@ footer {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
+  justify-content: center;
+  align-items: center;
 
   h6 {
     font-style: italic;

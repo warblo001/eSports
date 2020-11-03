@@ -31,14 +31,14 @@
           aria-haspopup="true" aria-expanded="false">
           <span class="iconify" data-icon="codicon:three-bars" data-inline="false"></span>
         </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <button class="dropdown-item" type="button"><a href="index.html"></a> Home</button>
-          <button class="dropdown-item" type="button"><a href="about.html"></a> About</button>
+        <div class="dropdown-menu dropdownmenu-btns" aria-labelledby="dropdownMenu2">
+          <button class="dropdown-item dropdownmenu-btns" type="button"><a href="index.html"> Home</a></button>
+          <button class="dropdown-item dropdownmenu-btns" type="button"><a href="about.html"> About</a></button>
           <button class="dropdown-item" type="button">Program</button>
           <button class="dropdown-item" type="button">Join</button>
           <button class="dropdown-item" type="button">Sponsor</button>
           <button class="dropdown-item" type="button">
-            <p class="eSports-btn"><a href="tickets.html"> eSports Summit</a></p>
+            <p class="eSports-btn dropdownmenu-btns"><a href="tickets.html"> eSports Summit</a></p>
           </button>
         </div>
       </div>
@@ -105,17 +105,17 @@
           </div>
           <div class="row">
             <div class="col-1 third-col">Normal</div>
-            <div class="col-2 orange-col third-col">$60 <input type="radio"></div>
-            <div class="col orange-col third-col">$60 <input type="radio"></div>
-            <div class="col orange-col third-col">$110 <input type="radio"></div>
-            <div class="col-3 orange-col third-col">$0 <input type="radio"></div>
+            <div class="col-2 orange-col third-col">$60 <input type="radio" name="normal"></div>
+            <div class="col orange-col third-col">$60 <input type="radio" name="normal"></div>
+            <div class="col orange-col third-col">$110 <input type="radio" name="normal"></div>
+            <div class="col-3 orange-col third-col">$0 <input type="radio" name="normal"></div>
           </div>
           <div class="row">
             <div class="col-1 fourth-col">Students</div>
-            <div class="col-2 orange-col fourth-col">$30 <input type="radio"></div>
-            <div class="col orange-col fourth-col">$30 <input type="radio"></div>
-            <div class="col orange-col fourth-col">$50 <input type="radio"></div>
-            <div class="col-3 orange-col fourth-col">$0 <input type="radio"></div>
+            <div class="col-2 orange-col fourth-col">$30 <input type="radio" name="students"></div>
+            <div class="col orange-col fourth-col">$30 <input type="radio" name="students"></div>
+            <div class="col orange-col fourth-col">$50 <input type="radio" name="students"></div>
+            <div class="col-3 orange-col fourth-col">$0 <input type="radio" name="students"></div>
           </div>
         </div>
       </div>
@@ -138,22 +138,26 @@
         <div class="menu1">
           <h4>Day 1</h4>
           <div class="menu-cont">
-          <p>menu 1<input type="radio"></p>
-          <p>menu 2<input type="radio"></p>
-          <p>menu 3<input type="radio"></p>
-          <p>menu 4<input type="radio"></p>
-          <p>menu 5<input type="radio"></p>
+            <form action="#">
+          <label for="menu1"> menu 1<input type="radio" name="menu1"></label>
+          <label for="menu1"> menu 2<input type="radio" name="menu1"></label>
+          <label for="menu1"> menu 3<input type="radio" name="menu1"></label>
+          <label for="menu1"> menu 4<input type="radio" name="menu1"></label>
+          <label for="menu1"> menu 5<input type="radio" name="menu1"></label>
+          </form>
           </div>
         </div>
 
         <div class="menu1">
           <h4>Day 2</h4>
           <div class="menu-cont">
-          <p>menu 1<input type="radio"></p>
-          <p>menu 2<input type="radio"></p>
-          <p>menu 3<input type="radio"></p>
-          <p>menu 4<input type="radio"></p>
-          <p>menu 5<input type="radio"></p>
+          <form action="#">
+            <label for="menu2"> menu 1<input type="radio" name="menu2"></label>
+            <label for="menu2"> menu 2<input type="radio" name="menu2"></label>
+            <label for="menu2"> menu 3<input type="radio" name="menu2"></label>
+            <label for="menu2"> menu 4<input type="radio" name="menu2"></label>
+            <label for="menu2"> menu 5<input type="radio" name="menu2"></label>
+          </form>
           </div>
         </div>
 
@@ -164,7 +168,7 @@
   <footer>
     <div class="foot-cont foot-about">
       <div class="footer-logo">
-        <a href="#">
+        <a href="index.html">
           <img src="assets/img/logo.jpg" alt="logo">
         </a>
       </div>

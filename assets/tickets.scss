@@ -2,6 +2,14 @@ $dark: #272A31;
 $orange: #EC5242;
 $gray: #D3D3D3;
 
+.dropdownmenu-btns {
+  button {
+    a {
+    color: $dark;
+  }
+  }
+}
+
 main {
   font-family: 'Lato', sans-serif;
 }
@@ -192,6 +200,15 @@ main {
   align-items: center;
   background: white;
   font-weight: bold;
+
+  form {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    label {
+      margin-right: 10px;
+    }
+  }
 
   input {
     margin-left: 10px;
