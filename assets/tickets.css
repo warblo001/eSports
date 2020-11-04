@@ -173,7 +173,8 @@ main {
   padding-top: 150px;
 }
 
-.second-col2, .fourth-col2 {
+.second-col2,
+.fourth-col2 {
   height: 80px;
 }
 
@@ -206,7 +207,8 @@ main {
   background: white;
 }
 
-.orange-col, .orange-col2 {
+.orange-col,
+.orange-col2 {
   color: #ec5242;
   font-size: 18px;
 }

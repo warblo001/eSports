@@ -162,7 +162,8 @@ main {
   padding-top: 150px;
 }
 
-.second-col2, .fourth-col2 {
+.second-col2,
+.fourth-col2 {
   height: 80px;
 }
 
@@ -192,7 +193,8 @@ main {
   background: white;
 }
 
-.orange-col, .orange-col2 {
+.orange-col,
+.orange-col2 {
   color: $orange;
   font-size: 18px;
 }
@@ -308,7 +310,7 @@ footer {
   align-items: center;
 }
 
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .mobile-ticket {
     display: none;
   }
