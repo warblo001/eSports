@@ -120,11 +120,20 @@ main {
 
   h2 {
     margin-top: 50px;
+    width: 100%;
+    text-align: center;
   }
 
   h3 {
+    width: 100%;
+    text-align: center;
     margin-top: -20px;
     color: $orange;
+  }
+
+  p {
+    width: 100%;
+    text-align: center;
   }
 }
 

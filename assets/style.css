@@ -1,5 +1,6 @@
 main {
   font-family: "Lato", sans-serif;
+  position: relative;
 }
 
 .mn-spk {
@@ -64,18 +65,21 @@ footer,
   color: #ec5242;
 }
 
-.head-banner {
-  position: relative;
-  margin-top: 20px;
-  padding-bottom: 20px;
-}
-
-.head-banner img {
+.mainbck {
   position: absolute;
   z-index: -1;
   opacity: 0.75;
   width: 100%;
-  height: 100%;
+  height: 1300px;
+  background: url(img/game-expo2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.head-banner {
+  position: relative;
+  margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 .head-banner h2 {
@@ -154,7 +158,7 @@ footer,
 .main-btn {
   width: 80%;
   background: #ec5242;
-  height: 100px;
+  height: 80px;
   margin-top: 20px;
   margin-bottom: 40px;
   display: -webkit-box;
@@ -166,7 +170,7 @@ footer,
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 20px;
+  font-size: 16px;
   border-radius: 1px;
   font-weight: 700;
   cursor: pointer;
@@ -191,14 +195,15 @@ footer,
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-size: 18px;
+  font-size: 16px;
   color: #ec5242;
+  margin-right: 10px;
 }
 
 .mp-art .iconify {
   width: 100px;
   font-size: 100px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .mp-art p {
@@ -563,13 +568,22 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
     margin: 5px 0;
+    font-size: 20px;
   }
   .main-btn {
     background: none;
     text-decoration: underline;
+    font-size: 20px;
   }
   .main-btn a:hover {
     color: #ec5242;
+  }
+}
+
+@media (max-width: 500px) {
+  .mainbck {
+    height: 1400px;
+    background-position: 0% 0%;
   }
 }
 /*# sourceMappingURL=style.css.map */
