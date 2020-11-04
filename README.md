@@ -6,7 +6,7 @@ This is a site for an incoming conference about videogames, it provides the info
 
 ## About the project
 
-This is a project for Microverse program HTML/CSS course which consist on creating a site for a conference using frontend techniques.
+This is a project for Microverse program HTML/CSS course which consists of creating a site for a conference using front-end techniques.
 
 ![screenshot](/assets/img/screenshot.png)
 
@@ -45,6 +45,15 @@ This is a project for Microverse program HTML/CSS course which consist on creati
 - GitHub: [@github](https://github.com/warblo001)
 - Twitter: [@twitter](https://twitter.com/Alan55572391)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/alan-solis-b567b044/)
+
+## Getting Started
+
+**Just clone this repo and open index.html file in your browser then you are good to go.**
+
+
+**To get a local copy up and running follow these simple example steps.**
+
+**clone the repo.**
 
 ## Show your support
 

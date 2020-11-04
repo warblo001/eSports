@@ -2,8 +2,8 @@ main {
   font-family: "Lato", sans-serif;
 }
 
-.header {
-  position: relative;
+.mn-spk {
+  background: #d3d3d3;
 }
 
 .black-nav,
@@ -55,7 +55,7 @@ footer,
   border: 3px solid #ec5242;
   color: #ec5242;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: -5px;
 }
 
 .eSports-btn:hover {
@@ -73,34 +73,41 @@ footer,
 .head-banner img {
   position: absolute;
   z-index: -1;
-  opacity: 0.55;
+  opacity: 0.75;
   width: 100%;
   height: 100%;
 }
 
 .head-banner h2 {
   padding: 100px 20px 10px 20px;
-  color: #272a31;
-  font-size: 30px;
+  color: #ec5242;
+  font-size: 40px;
   font-weight: 900;
 }
 
 .head-banner h1 {
   padding: 0 20px;
-  font-size: 50px;
+  font-size: 60px;
+  font-family: 'Anton', sans-serif;
+  color: #ec5242;
 }
 
 .banner-t,
 .banner-date {
   margin: 0 20px;
-  color: #ec5242;
+  color: #272a31;
   font-size: 20px;
   font-weight: bold;
+  background: #d3d3d39d;
+  padding: 10px;
+  width: 50%;
+  border: 1px solid white;
 }
 
 .banner-t h3,
 .banner-date h3 {
   color: #272a31;
+  font-family: 'Anton', sans-serif;
 }
 
 .main-program {
@@ -159,8 +166,9 @@ footer,
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 1px;
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -183,7 +191,7 @@ footer,
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-size: 20px;
+  font-size: 18px;
   color: #ec5242;
 }
 
@@ -195,32 +203,37 @@ footer,
 
 .mp-art p {
   width: 50%;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .main-speakers {
   width: 100%;
-  margin: 0;
-  background: black;
+  background: #d3d3d3;
   padding-bottom: 30px;
 }
 
 .main-speakers h1 {
   text-align: center;
-  color: #d3d3d3;
+  color: #272a31;
   padding-top: 20px;
+}
+
+.main-speakers h4 {
+  color: #ec5242;
+  margin-top: -20px;
+  text-align: center;
 }
 
 .speaker {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: -10px;
+  margin-bottom: 20px;
 }
 
 .speak-img {
-  width: 200px;
-  height: 230px;
+  width: 180px;
+  height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -232,7 +245,7 @@ footer,
 
 .speak-img .avatar {
   width: 75%;
-  height: 150px;
+  height: 135px;
   margin-left: 33px;
   margin-top: 55px;
   opacity: 0.5;
@@ -246,7 +259,7 @@ footer,
 
 .speak-img .border-av {
   width: 190px;
-  height: 200px;
+  height: 180px;
   position: absolute;
   margin-top: 20px;
   margin-left: 10px;
@@ -260,14 +273,13 @@ footer,
 }
 
 .speak-img:hover {
-  -webkit-transform: scale(1.18);
-          transform: scale(1.18);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   cursor: pointer;
 }
 
 .speak-text {
   width: 70%;
-  background: #d3d3d3;
   padding: 5px;
   height: 90%;
   margin-top: 30px;
@@ -281,6 +293,7 @@ footer,
 
 .speak-text h2 {
   font-size: 25px;
+  font-family: 'Anton', sans-serif;
 }
 
 .speak-text h3 {
@@ -452,7 +465,7 @@ footer {
   font-size: 14px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .mp-art .iconify {
     font-size: 60px;
     margin: 0 auto;

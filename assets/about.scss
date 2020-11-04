@@ -16,7 +16,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(img/pc-master.jpg);
+  background-image: url(img/backg3.png);
   color: $gray;
   background-size: cover;
 
@@ -24,16 +24,18 @@ main {
     margin-top: 200px;
     width: 80%;
     text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: $orange;
   }
 
   p {
     font-size: 20px;
-    margin: 100px 0;
-    background: #d3d3d3a1;
+    margin:50px 0;
+    background: #d3d3d3e1;
     color: $dark;
     width: 60%;
     padding: 20px;
-    font-weight: 500;
+    font-weight: 900;
     border: 3px solid $orange;
     text-align: center;
   }
@@ -42,6 +44,11 @@ main {
     font-size: 25px;
     width: 40%;
     margin-bottom: 100px;
+    border: 3px solid $orange;
+    background: #d3d3d3e1;
+    text-align: center;
+    color: $dark;
+    font-weight: 900;
   }
 }
 
@@ -125,7 +132,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   position: relative;
   margin-top: 50px;
 }
@@ -133,8 +140,8 @@ main {
 .text1,
 .text2 {
   background: $orange;
-  width: 400px;
-  height: 250px;
+  width: 364px;
+  height: 225px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -167,8 +174,8 @@ main {
 .img1,
 .img2 {
   display: flex;
-  width: 400px;
-  height: 250px;
+  width: 364px;
+  height: 225px;
   margin: 10px;
 }
 

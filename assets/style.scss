@@ -6,10 +6,9 @@ main {
   font-family: "Lato", sans-serif;
 }
 
-.header {
-  position: relative;
+.mn-spk {
+  background: $gray;
 }
-
 .black-nav,
 .main-nav,
 .head-banner,
@@ -63,7 +62,7 @@ footer,
   border: 3px solid $orange;
   color: $orange;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: -5px;
 }
 
 .eSports-btn:hover {
@@ -80,33 +79,40 @@ footer,
   img {
     position: absolute;
     z-index: -1;
-    opacity: 0.55;
+    opacity: 0.75;
     width: 100%;
     height: 100%;
   }
 
   h2 {
     padding: 100px 20px 10px 20px;
-    color: $dark;
-    font-size: 30px;
+    color: $orange;
+    font-size: 40px;
     font-weight: 900;
   }
 
   h1 {
     padding: 0 20px;
-    font-size: 50px;
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+    color: $orange;
   }
 }
 
 .banner-t,
 .banner-date {
   margin: 0 20px;
-  color: $orange;
+  color: $dark;
   font-size: 20px;
   font-weight: bold;
+  background: #d3d3d39d;
+  padding: 10px;
+  width: 50%;
+  border: 1px solid white;
 
   h3 {
     color: $dark;
+    font-family: 'Anton', sans-serif;
   }
 }
 
@@ -153,8 +159,9 @@ footer,
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 1px;
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -169,7 +176,7 @@ footer,
     width: 25%;
     display: flex;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 18px;
     color: $orange;
   }
 
@@ -181,31 +188,36 @@ footer,
 
   p {
     width: 50%;
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
 .main-speakers {
   width: 100%;
-  margin: 0;
-  background: black;
+  background: $gray;
   padding-bottom: 30px;
 
   h1 {
     text-align: center;
-    color: $gray;
+    color: $dark;
     padding-top: 20px;
+  }
+
+  h4 {
+    color: $orange;
+    margin-top: -20px;
+    text-align: center;
   }
 }
 
 .speaker {
   display: flex;
-  margin-left: -10px;
+  margin-bottom: 20px;
 }
 
 .speak-img {
-  width: 200px;
-  height: 230px;
+  width: 180px;
+  height: 200px;
   display: flex;
   position: relative;
   margin-right: 20px;
@@ -213,7 +225,7 @@ footer,
 
   .avatar {
     width: 75%;
-    height: 150px;
+    height: 135px;
     margin-left: 33px;
     margin-top: 55px;
     opacity: 0.5;
@@ -226,7 +238,7 @@ footer,
 
   .border-av {
     width: 190px;
-    height: 200px;
+    height: 180px;
     position: absolute;
     margin-top: 20px;
     margin-left: 10px;
@@ -241,13 +253,12 @@ footer,
 }
 
 .speak-img:hover {
-  transform: scale(1.18);
+  transform: scale(1.10);
   cursor: pointer;
 }
 
 .speak-text {
   width: 70%;
-  background: $gray;
   padding: 5px;
   height: 90%;
   margin-top: 30px;
@@ -260,6 +271,7 @@ footer,
 
   h2 {
     font-size: 25px;
+    font-family: 'Anton', sans-serif;
   }
 
   h3 {
@@ -389,7 +401,7 @@ footer {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .mp-art .iconify {
     font-size: 60px;
     margin: 0 auto;
