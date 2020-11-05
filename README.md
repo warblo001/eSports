@@ -36,7 +36,9 @@ This is a project for Microverse program HTML/CSS course which consists of creat
 
 [Live Demo Link](https://relaxed-gates-ad7de1.netlify.app/)
 
-**See the page via the link above**
+**See the video explaining the site via the link below**
+
+[Video Demo Link](https://www.loom.com/share/3b71af8cf05149699b45b779e322bd8e)
 
 ## Author
 

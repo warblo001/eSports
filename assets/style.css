@@ -132,8 +132,9 @@ footer,
           align-items: center;
 }
 
-.main-program h1 {
+.main-program h4 {
   margin-top: 20px;
+  font-size: 40px;
 }
 
 .main-program h2 {
@@ -217,10 +218,11 @@ footer,
   padding-bottom: 30px;
 }
 
-.main-speakers h1 {
+.main-speakers h5 {
   text-align: center;
   color: #272a31;
   padding-top: 20px;
+  font-size: 40px;
 }
 
 .main-speakers h4 {
@@ -349,9 +351,13 @@ footer,
   color: #d3d3d3;
 }
 
-.partner-container h1,
+.partner-container h3,
 .partner-container h2 {
   text-align: center;
+}
+
+.partner-container h3 {
+  font-size: 40px;
 }
 
 .partner-container h2 {
