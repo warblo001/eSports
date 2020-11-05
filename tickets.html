@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tickets</title>
+    <link rel="stylesheet" href="assets/reset.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/tickets.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="black-nav">
+        <a href="#"
+          ><span
+            class="iconify"
+            data-icon="brandico:facebook"
+            data-inline="false"
+          ></span
+        ></a>
+        <a href="#"
+          ><span
+            class="iconify"
+            data-icon="ant-design:twitter-outlined"
+            data-inline="false"
+          ></span
+        ></a>
+        <a href="#">English</a>
+        <a href="#">My Page</a>
+        <a href="#">Logout</a>
+      </div>
+
+      <nav class="navbar navbar-light bg-light fixed-top d-md-none">
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle drop-btn"
+            type="button"
+            id="dropdownMenu2"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <span
+              class="iconify"
+              data-icon="codicon:three-bars"
+              data-inline="false"
+            ></span>
+          </button>
+          <div
+            class="dropdown-menu dropdownmenu-btns"
+            aria-labelledby="dropdownMenu2"
+          >
+            <a class="dropdown-item" href="index.html">Home</a>
+            <a class="dropdown-item" href="about.html">About</a>
+            <a class="dropdown-item" href="#">Program</a>
+            <a class="dropdown-item" href="#">Join</a>
+            <a class="dropdown-item" href="#">Sponsor</a>
+            <a class="dropdown-item" href="tickets.html">eSports Summit</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <nav
+      class="navbar main-nav navbar-light bg-light sticky-top d-none d-md-flex justify-content-around"
+    >
+      <a class="navbar-brand" href="index.html">
+        <img
+          src="assets/img/logo.jpg"
+          width="150"
+          height="50"
+          alt="logo"
+          loading="lazy"
+        />
+      </a>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Program</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Join</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sponsor</a>
+        </li>
+        <li class="eSports-btn"><a href="tickets.html">eSports Summit </a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <div class="step1">
+          <div class="house-map">
+            <ul>
+              <li>
+                <a href="index.html"
+                  ><span
+                    class="iconify"
+                    data-icon="clarity:house-solid"
+                    data-inline="false"
+                  ></span
+                ></a>
+              </li>
+              <li>></li>
+              <li><a href="#">eSports</a></li>
+              <li>></li>
+              <li><a href="tickets.html"> Tickets</a></li>
+            </ul>
+          </div>
+
+          <h1>Select Tickets</h1>
+          <h3>___</h3>
+
+          <article class="step-circle">
+            <h5>STEP 1</h5>
+            <p>
+              Please select the day you want to assist to eSports Conference
+              2020.
+            </p>
+          </article>
+
+          <div class="container tickets-cont">
+            <div class="row first-row">
+              <div class="col-1 first-col">Ticket</div>
+              <div class="col-2 first-col">1-Day-Ticket</div>
+              <div class="col first-col">2-Day-Ticket</div>
+              <div class="col-3 first-col">eSports Affiliate</div>
+            </div>
+
+            <div class="row">
+              <div class="col-1 second-col">Date</div>
+              <div class="col-2 second-col">6 Nov(Fri)</div>
+              <div class="col second-col">7 Nov(Sat)</div>
+              <div class="col second-col">6-7 Nov(Fri-Sat)</div>
+              <div class="col-3 second-col">6-7 Nov(Fri-Sat)</div>
+            </div>
+            <div class="row">
+              <div class="col-1 third-col">Normal</div>
+              <div class="col-2 orange-col third-col">
+                $60 <input type="radio" name="normal" />
+              </div>
+              <div class="col orange-col third-col">
+                $60 <input type="radio" name="normal" />
+              </div>
+              <div class="col orange-col third-col">
+                $110 <input type="radio" name="normal" />
+              </div>
+              <div class="col-3 orange-col third-col">
+                $0 <input type="radio" name="normal" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1 fourth-col">Students</div>
+              <div class="col-2 orange-col fourth-col">
+                $30 <input type="radio" name="students" />
+              </div>
+              <div class="col orange-col fourth-col">
+                $30 <input type="radio" name="students" />
+              </div>
+              <div class="col orange-col fourth-col">
+                $50 <input type="radio" name="students" />
+              </div>
+              <div class="col-3 orange-col fourth-col">
+                $0 <input type="radio" name="students" />
+              </div>
+            </div>
+          </div>
+
+          <div class="mobile-ticket">
+            <div class="container-fluid tickets-cont2">
+              <div class="row first-row2">
+                <div class="col-3 first-col2">Ticket</div>
+                <div class="col-3 first-col2">Date</div>
+                <div class="col-3 first-col2">Normal</div>
+                <div class="col-3 first-col2">Students</div>
+              </div>
+
+              <div class="row">
+                <div class="col-3 second-col2">
+                  1 <br />
+                  Day <br />
+                  Ticket
+                </div>
+                <div class="col-3 second-col2">
+                  6 <br />
+                  Nov (Fri)
+                </div>
+                <div class="col-3 orange-col2 second-col2">
+                  $60<input type="radio" name="Normal2" />
+                </div>
+                <div class="col-3 orange-col2 second-col2">
+                  $30<input type="radio" name="Students2" />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-3 empty-one third-col2">
+                  2 <br />
+                  Day <br />
+                  Ticket
+                </div>
+                <div class="col-3 third-col2">
+                  7 <br />
+                  Nov(Sat)
+                </div>
+                <div class="col-3 orange-col2 third-col2">
+                  $60 <input type="radio" name="Normal2" />
+                </div>
+                <div class="col-3 orange-col2 third-col2">
+                  $30 <input type="radio" name="Students2" />
+                </div>
+                <div class="w-100"></div>
+                <div class="col-3 third-col2"></div>
+                <div class="col-3 third-col2">
+                  6-7 <br />
+                  Nov(Fri-Sat)
+                </div>
+                <div class="col-3 orange-col2 third-col2">
+                  $110 <input type="radio" name="Normal2" />
+                </div>
+                <div class="col-3 orange-col2 third-col2">
+                  $50 <input type="radio" name="Students2" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3 fourth-col2">eSports Affiliate</div>
+                <div class="col-3 fourth-col2">
+                  6-7 <br />
+                  Nov(Fri-Sat)
+                </div>
+                <div class="col-3 orange-col2 fourth-col2">
+                  $0 <input type="radio" name="Normal2" />
+                </div>
+                <div class="col-3 orange-col2 fourth-col2">
+                  $0 <input type="radio" name="Students2" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="little-square">
+          <p>v</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="step2">
+          <h2>Select Your Lunch</h2>
+          <h3>___</h3>
+
+          <article class="step-circle2">
+            <h5>STEP 2</h5>
+            <p>Please select your lunch for registered day.</p>
+            <p>There will be no further costs for the lunch.</p>
+          </article>
+
+          <div class="menu1">
+            <h4>Day 1</h4>
+            <div class="menu-cont">
+              <form action="#">
+                <label> menu 1<input type="radio" name="menu1" /></label>
+                <label> menu 2<input type="radio" name="menu1" /></label>
+                <label> menu 3<input type="radio" name="menu1" /></label>
+                <label> menu 4<input type="radio" name="menu1" /></label>
+                <label> menu 5<input type="radio" name="menu1" /></label>
+              </form>
+            </div>
+          </div>
+
+          <div class="menu1">
+            <h4>Day 2</h4>
+            <div class="menu-cont">
+              <form action="#">
+                <label> menu 1<input type="radio" name="menu2" /></label>
+                <label> menu 2<input type="radio" name="menu2" /></label>
+                <label> menu 3<input type="radio" name="menu2" /></label>
+                <label> menu 4<input type="radio" name="menu2" /></label>
+                <label> menu 5<input type="radio" name="menu2" /></label>
+              </form>
+            </div>
+          </div>
+
+          <button type="button" class="menu-btn">Select</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="foot-cont foot-about">
+        <div class="footer-logo">
+          <a href="index.html">
+            <img src="assets/img/logo.jpg" alt="logo" />
+          </a>
+        </div>
+        <div class="footer-text">
+          <h6>ESPORTS CONFERENCE 2020 © All rights reserved</h6>
+          <p>
+            All the content belongs to each of the brands and partners. Images
+            and logos belong to their creators.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
